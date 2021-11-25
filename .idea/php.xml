@@ -2,17 +2,17 @@
 <project version="4">
   <component name="MessDetector">
     <phpmd_settings>
-      <MessDetectorConfiguration tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpmd" timeout="15000" />
+      <MessDetectorConfiguration tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpmd" timeout="45000" />
     </phpmd_settings>
   </component>
   <component name="PhpCSFixer">
     <phpcsfixer_settings>
-      <PhpCSFixerConfiguration tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/php-cs-fixer" timeout="15000" />
+      <PhpCSFixerConfiguration tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/php-cs-fixer" timeout="45000" />
     </phpcsfixer_settings>
   </component>
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration beautifier_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpcbf" tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpcs" timeout="15000" />
+      <PhpCSConfiguration beautifier_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpcbf" tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpcs" timeout="45000" />
     </phpcs_settings>
   </component>
   <component name="PhpIncludePathManager">
@@ -54,7 +54,7 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
   <component name="PhpRuntimeConfiguration">
     <extensions>
       <extension name="Ev" enabled="false" />
@@ -88,7 +88,6 @@
       <extension name="ibm_db2" enabled="false" />
       <extension name="igbinary" enabled="false" />
       <extension name="imagick" enabled="false" />
-      <extension name="imap" enabled="false" />
       <extension name="inotify" enabled="false" />
       <extension name="interbase" enabled="false" />
       <extension name="judy" enabled="false" />
@@ -137,7 +136,6 @@
       <extension name="sysvmsg" enabled="false" />
       <extension name="sysvsem" enabled="false" />
       <extension name="sysvshm" enabled="false" />
-      <extension name="tidy" enabled="false" />
       <extension name="v8js" enabled="false" />
       <extension name="wddx" enabled="false" />
       <extension name="win32service" enabled="false" />
@@ -153,17 +151,17 @@
   </component>
   <component name="PhpStan">
     <PhpStan_settings>
-      <PhpStanConfiguration tool_path="$USER_HOME$/AppData/Local/.roomet/cmd/phpstan" />
+      <PhpStanConfiguration tool_path="$USER_HOME$/AppData/Local/.roomet/cmd/phpstan" timeout="45000" />
     </PhpStan_settings>
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
   <component name="Psalm">
     <Psalm_settings>
-      <PsalmConfiguration tool_path="$USER_HOME$/AppData/Local/.roomet/cmd/psalm" />
+      <PsalmConfiguration tool_path="$USER_HOME$/AppData/Local/.roomet/cmd/psalm" timeout="45000" />
     </Psalm_settings>
   </component>
 </project>
