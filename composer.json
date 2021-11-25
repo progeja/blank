@@ -1,31 +1,34 @@
 {
-  "name"       : "progeja/blank",
-  "description": "Blank project folder structure for starting new PHP projects.",
-  "type"       : "project",
-  "license"    : "MIT",
-  "keywords"   : [
-    "blank",
-    "template",
-    "boilerplate",
-    "php",
-    "project"
-  ],
-  "authors"    : [
-    {
-      "name" : "Progeja",
-      "email": "progeja@gmail.com"
+    "name"       : "progeja/blank",
+    "description": "Blank project folder structure for starting new PHP projects.",
+    "type"       : "project",
+    "license"    : "MIT",
+    "keywords"   : [
+        "blank",
+        "template",
+        "bare",
+        "boilerplate",
+        "php",
+        "project",
+        "PHPStorm"
+    ],
+    "authors"    : [
+        {
+            "name" : "Progeja",
+            "email": "progeja@gmail.com"
+        }
+    ],
+    "require"    : {
+        "php"         : "^7.4 || ^8.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit"          : "^9.5"
+    },
+    "autoload"   : {
+        "psr-4": {
+            "Blank\\": "src/"
+        }
     }
-  ],
-  "autoload"   : {
-    "psr-4": {
-      "Blank\\": "src/"
-    }
-  },
-  "require"    : {
-    "php": "^7.4 || ^8.0"
-  },
-  "require-dev": {
-    "roave/security-advisories": "dev-latest",
-    "phpunit/phpunit"          : "^9.5"
-  }
 }
